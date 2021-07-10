@@ -7,5 +7,5 @@ def index():
     return "Running CST FLASK DOCKER..."
 
 @app.route('/check2', methods=["GET"])
-def index():
+def check2():
     return "Running Check2..."
